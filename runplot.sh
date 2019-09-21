@@ -22,6 +22,8 @@ clean_plotdir() {
 		echo
                 echo 'Plot Directory Cleaned'
                 echo
+	else
+		echo
         fi
 }
 
