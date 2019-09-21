@@ -1,5 +1,9 @@
 #!/bin/bash
 
+##########################################################################################
+# runplot.sh - Signal-Server non-privleged user run script - v2.1 - Bill Atkinson (NF9K) #
+##########################################################################################
+
 #Variables
 SSDIR=/opt/Signal-Server
 PLOTDIR=~/plots
