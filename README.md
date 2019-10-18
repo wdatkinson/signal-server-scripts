@@ -41,7 +41,7 @@ following tasks:
 
 batchplot.sh - This is basically the same as the runplot.sh, except that it processes multiple plots sourced from the source.csv file. It also DOES NOT prompt you before cleaning the plots directory.  So once you edit your source.csv, you run this file and go away.  Each plot will show you the system time at the start of the run, so you can get some idea as to progress.  There is also an indicator for each frequency of which plot it's on (1 of 3, 2 of 3, and 3 of 3).
 
-source.csv - This is a comma separated file in the format of: band,lattitude,longitude,height,frequency,erp  There are two examples provided in the sample file.  Be careful as there is currently no error checking, nor any comments in the file.  If you edit this file off-system and then upload it, it's up to you to make sure no special characters (notorious when editing linux files on Windows) find their way into the file.
+source.csv - This is a comma separated file in the format of: band,lattitude,longitude,height,frequency,erp,outfileprefix.  There are two examples provided in the sample file.  Be careful as there is currently no error checking, nor any comments in the file.  If you edit this file off-system and then upload it, it's up to you to make sure no special characters (notorious when editing linux files on Windows) find their way into the file.
 
 Post run, you'll have a *.kmz file which can be offloaded and run in Google Earth of observe your plot.
 
