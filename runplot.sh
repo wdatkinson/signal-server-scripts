@@ -6,7 +6,7 @@
 
 #Variables
 SSDIR=/opt/Signal-Server
-PLOTDIR=~/plots
+PLOTDIR=~/signal-server-scripts/plots
 
 #Functions
 check_plotdir() {
