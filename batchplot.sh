@@ -1,15 +1,15 @@
 #!/bin/bash
 
 #############################################################################################
-# batchplot.sh - Signal-Server non-privleged batch run script - v1.2 - Bill Atkinson (NF9K) #
+# batchplot.sh - Signal-Server non-privleged batch run script - v1.3 - Bill Atkinson (NF9K) #
 #############################################################################################
 
 #Variables
-VERSION=1.2
+VERSION=1.3
 SSDIR=/opt/Signal-Server
-PLOTDIR=~/plots
-INFILE=~/source.csv
-TMPFILE=~/source.tmp
+PLOTDIR=~/signal-server-scripts/plots
+INFILE=~/signal-server-scripts/source.csv
+TMPFILE=~/signal-server-scripts/source.tmp
 
 #Functions
 
